@@ -1,0 +1,39 @@
+# SBT
+target/
+project/target/
+project/project/target/
+
+# Scala CLI
+.scala-build/
+
+# Metals (Scala Language Server)
+.metals/
+.bloop/
+metals.sbt
+
+# BSP (Build Server Protocol)
+.bsp/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build artifacts
+*.jar
+*.class
+
+# Scala specific
+*.sc
